@@ -1,9 +1,3 @@
-
-
-// const insericiTask = (task) => {
-//     console.log(task.key);
-    
-// }
 const insericiTask = (event) => {
         const inserito = document.getElementById('form-list').value    
         if (event.key === 'Enter') {
