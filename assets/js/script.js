@@ -20,6 +20,12 @@ const insericiTask = (event) => {
 }
 
 function selezionaTask (event) {
-    const elementoCliccato = event.target
-    elementoCliccato.classList.toggle("selected")
+    const taskSelezionato = event.target
+    taskSelezionato.classList.toggle("selected")
+}
+
+const elimina = () => {
+    const padre = document.getElementById('list')
+    const elementiDaRimuovere = document.querySelectorAll('.selected')
+    elementiDaRimuovere.forEach((element) => padre.removeChild(element))
 }
