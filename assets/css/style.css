@@ -1,0 +1,89 @@
+/* COMMON */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fffaf0;
+  color: #fffaf0;
+}
+
+.template {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: #ccc2a6;
+  width: 400px;
+  border: 3px solid #1e1e1e;
+  border-radius: 10px;
+}
+
+.template:hover,
+.selected {
+  background-color: #333029;
+  width: 450px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.selected {
+  width: 450px;
+}
+
+/* HEADER*/
+
+.header {
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: #1e1e1e;
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 20px;
+}
+
+.header .title {
+  padding-top: 100px;
+  margin-bottom: 50px;
+  font-size: 3rem;
+  border-bottom: 2px solid;
+  padding-bottom: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.header .form {
+  width: 20%;
+  min-width: 200px;
+  height: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  font-family: "Urbanist", sans-serif;
+  border-radius: 13px;
+  text-align: center;
+}
+
+.header .button {
+  font-size: 1rem;
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #fffaf0;
+  border-radius: 15px;
+  border: 2px solid #333029;
+  cursor: pointer;
+  color: #1e1e1e;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bold;
+  padding: 7px 16px;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+/* MAIN */
+
+.main {
+  margin-bottom: 20px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
